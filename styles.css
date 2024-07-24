@@ -1,0 +1,45 @@
+* {
+    font-family: Roboto;
+}
+
+.header {
+    background: #1F2937;
+    padding: 5px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    flex-grow: 1;
+    margin-left: 400px;
+}
+
+body {
+    margin: 0;
+}
+
+.right-side-links {
+    display: flex;
+    gap: 15px;
+    margin-right: 400px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.section-one {
+    background: #1F2937;
+    padding: 300px;
+    color: #F9FAF8;
+    display: flex;
+}
