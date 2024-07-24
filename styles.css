@@ -75,19 +75,21 @@ img {
 .section-two {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .squares-text {
     display: flex;
     justify-content: center;
+    font-size: 25px;
+    flex-wrap: wrap;
 }
+
 
 .info-header {
     font-weight: bolder;
     font-size: 36px;
-    margin: 100px;
+    margin: 50px;
+    text-align: center;
 }
 
 .info-box-one, .info-box-two, .info-box-three, .info-box-four {
@@ -97,4 +99,15 @@ img {
     padding: 20px;
     width: 200px;
     height: 200px;
+    margin-bottom: 30px;
+}
+
+.info-text-one, .info-text-two, .info-text-three, .info-text-four {
+    font-size: 20px;
+}
+
+.info-sec-one, .info-sec-two, .info-sec-three, .info-sec-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
