@@ -73,17 +73,26 @@ img {
 }
 
 .section-two {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .squares-text {
     display: flex;
+    justify-content: center;
+}
+
+.info-header {
+    font-weight: bolder;
+    font-size: 36px;
+    margin: 100px;
 }
 
 .info-box-one, .info-box-two, .info-box-three, .info-box-four {
     background-color: white;
-    border-radius: 15px;
+    border-radius: 20px;
     border: 5px solid #3882F6;
     padding: 20px;
     width: 200px;
