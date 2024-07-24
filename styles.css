@@ -7,14 +7,14 @@
     padding: 5px;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap:850px
 }
 
 .header-logo {
     font-size: 24px;
-    flex-grow: 1;
-    margin-left: 400px;
+    display: flex;
 }
 
 body {
@@ -24,8 +24,6 @@ body {
 .right-side-links {
     display: flex;
     gap: 15px;
-    margin-right: 400px;
-
 }
 
 li {
@@ -38,8 +36,56 @@ a {
 }
 
 .section-one {
-    background: #1F2937;
-    padding: 300px;
+    background: #1F2937;    
+    padding: 150px;
     color: #F9FAF8;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 1000;    
+}
+
+.sign-up {
+    border-radius: 10px;
+    background-color:#3882F6;
+    height: 45px;
+    width: 150px;;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+.hero-sub {
+    width: 600px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-two {
+display: flex;
+flex-direction: column;
+}
+
+.squares-text {
+    display: flex;
+}
+
+.info-box-one, .info-box-two, .info-box-three, .info-box-four {
+    background-color: white;
+    border-radius: 15px;
+    border: 5px solid #3882F6;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
 }
