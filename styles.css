@@ -176,7 +176,6 @@ img {
 
 }
 
-
 .sign-up-two {
     border-radius: 10px;
     background-color:#3882F6;
@@ -188,3 +187,14 @@ img {
     color: #F9FAF8;
 }
 
+.footer {
+    background: #1F2937;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #F9FAF8;
+}
