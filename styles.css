@@ -75,11 +75,12 @@ img {
 .section-two {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 150px;
 }
 
 .squares-text {
     display: flex;
-    justify-content: center;
     font-size: 25px;
     flex-wrap: wrap;
 }
@@ -88,8 +89,9 @@ img {
 .info-header {
     font-weight: bolder;
     font-size: 36px;
-    margin: 50px;
+    margin-bottom: 50px;
     text-align: center;
+    color:#1F2937;
 }
 
 .info-box-one, .info-box-two, .info-box-three, .info-box-four {
@@ -104,10 +106,40 @@ img {
 
 .info-text-one, .info-text-two, .info-text-three, .info-text-four {
     font-size: 20px;
+    color: grey;
+    text-align: center;
 }
 
 .info-sec-one, .info-sec-two, .info-sec-three, .info-sec-four {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 300px;
 }
+
+
+.background-div {
+    background: #E5E7EB;
+    padding: 250px;
+}
+
+.quote-header {
+    font-size: 36px;
+    font-style: italic;
+    width: 900px;
+}
+
+.quote-author {
+    text-align: right;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
